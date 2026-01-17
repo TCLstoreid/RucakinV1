@@ -56,7 +56,7 @@ read -p "Pilih : " pilih
 # ================= AKSI =================
 case $pilih in
   1)
-    echo -e "${GREEN}Menjalankan Phishing Tool...${NC}"
+    echo -e "${GREEN}Menjalankan Phishing Tool [SABAR YA JING]...${NC}"
     sleep 3
     cd Tools
     git clone https://github.com/htr-tech/zphisher
@@ -64,7 +64,7 @@ case $pilih in
     bash zphisher.sh
     ;;
   2)
-    echo -e "${GREEN}Menjalankan Menu DDOS Attack...${NC}"
+    echo -e "${GREEN}Menjalankan Menu DDOS Attack [SABAR YA JING]...${NC}"
     sleep 3
     cd Tools
     git clone https://github.com/palahsu/DDoS-Ripper.git
@@ -73,13 +73,13 @@ case $pilih in
     ;;
   3)
     pkg install python -y
-    echo -e "${GREEN}Menjalankan Menu DOXING...${NC}"
+    echo -e "${GREEN}Menjalankan Menu DOXING [SABAR YA JING]...${NC}"
     python3 tools/doxing.py
     echo
   read -p "Tekan ENTER untuk kembali ke menu..."
   ;;
   4)
-  echo -e "${GREEN}Menjalankan Menu OSINT...${NC}"
+  echo -e "${GREEN}Menjalankan Menu OSINT [OSINT COMMING SOON]...${NC}"
   ;;
 
   0)
